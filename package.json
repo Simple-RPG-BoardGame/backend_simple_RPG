@@ -4,8 +4,9 @@
   "description": "Relational Backend to RPG Game",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest --watch"
   },
   "jest": {
     "testEnvironment": "node"
