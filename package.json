@@ -24,6 +24,8 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.95.6",
     "pg": "^8.6.0",
+    "postgresql": "0.0.1",
+    "sequelize": "^6.6.5",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {

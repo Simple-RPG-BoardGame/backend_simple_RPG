@@ -1,6 +1,6 @@
 // Update with your config settings.
 
-const pgConnection = process.env.DATABASE_URL || "https://backend-rpg-game.herokuapp.com/";
+const pgConnection = process.env.DATABASE_URL || "postgresql://postgres@localhost/api/";
 
 module.exports = {
 
