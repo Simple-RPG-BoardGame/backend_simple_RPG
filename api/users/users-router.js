@@ -69,7 +69,7 @@ router.put("/users/edit/:id", (req, res) => {
             if(user) {
                 Users.update(changes, id)
                     .then(updatedUser => {
-                        console.log("updated User", updatedUser, "changes", changes)
+                        // console.log("updated User", updatedUser, "changes", changes)
                         res.status(201).json({message:"Successfully updated User"})
                     })
             } else {
